@@ -37,6 +37,7 @@ pip install rdkit==2023.9.1
 pip install scikit-learn==1.3.0
 pip install keras-tuner==1.4.5
 pip install seaborn==0.13.0<img width="1157" height="538" alt="image" src="https://github.com/user-attachments/assets/3724e6a7-5177-4b2d-8fab-78357ba1f74e" />
+```
 
 ## References
 1. **Property prediction & unsupervised learning**
@@ -52,6 +53,7 @@ pip install seaborn==0.13.0<img width="1157" height="538" alt="image" src="https
   year={2023},
   publisher={ACS Publications}
 }
+```
 
 2. **Virtual polymer generation (polymerization reactions & small molecules)**
 
@@ -66,6 +68,7 @@ pip install seaborn==0.13.0<img width="1157" height="538" alt="image" src="https
   year={2024},
   publisher={Royal Society of Chemistry}
 }
+```
 
 3. **Generative models**
 ```bibtex
@@ -79,3 +82,4 @@ pip install seaborn==0.13.0<img width="1157" height="538" alt="image" src="https
   year={2025},
   publisher={Royal Society of Chemistry}
 }
+```
