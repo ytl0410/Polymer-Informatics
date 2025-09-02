@@ -4,16 +4,16 @@ This repository contains a set of four Jupyter notebooks designed as a teaching 
 ## Notebooks
 
 1. **1_Overview.ipynb**  
-   Introduction to polymer informatics and machine learning workflows in materials science.
+   Introduction to polymer informatics and feature engineering methods.
 
 2. **2_Supervised_Learning.ipynb**  
-   Property prediction of polymers using supervised learning approaches with explainable ML methods.
+   Property prediction of polymers using supervised learning approaches.
 
 3. **3_Unsupervised_Learning.ipynb**  
-   Exploration of polymer feature space using unsupervised learning methods such as PCA and clustering.
+   Introduction to virtual polymer generation approach using small-molecule datasets and polymerization reactions, exploration of polymer feature space using unsupervised learning methods such as T-SNE and clustering, as well as explainable ML method (SHAP).
 
 4. **4_Generative_models.ipynb**  
-   Generative modeling approaches for virtual polymer design and inverse design applications.
+   Generative modeling approaches for hypothetical polymer generation and inverse design using reinforcement learning strategy.
 
 ## Getting Started
 
