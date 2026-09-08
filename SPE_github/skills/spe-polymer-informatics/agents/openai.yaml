@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPE Polymer Informatics Workshop"
+  short_description: "Learn the original SPE polymer informatics notebooks"
+  default_prompt: "Use $spe-polymer-informatics to guide me through the instructor's original SPE notebooks while preserving their environment, code, and training settings."

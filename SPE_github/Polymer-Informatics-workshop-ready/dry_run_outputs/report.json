@@ -1,0 +1,27 @@
+{
+  "mode": "dry-run",
+  "started_at_epoch": 1788385870.990113,
+  "notebooks": [
+    {
+      "notebook": "1_Overview.ipynb",
+      "status": "passed",
+      "reused_validated_output": true
+    },
+    {
+      "notebook": "2_Supervised_Learning.ipynb",
+      "status": "passed",
+      "reused_validated_output": true
+    },
+    {
+      "notebook": "3_Unsupervised_Learning.ipynb",
+      "status": "passed",
+      "reused_validated_output": true
+    },
+    {
+      "notebook": "4_Generative_models.ipynb",
+      "status": "passed",
+      "seconds": 19.723
+    }
+  ],
+  "finished_at_epoch": 1788385890.7424672
+}
