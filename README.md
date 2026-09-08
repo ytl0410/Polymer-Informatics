@@ -83,3 +83,39 @@ pip install seaborn==0.13.0<img width="1157" height="538" alt="image" src="https
   publisher={Royal Society of Chemistry}
 }
 ```
+
+## Optional AI Teaching Assistant Skill
+
+The [SPE Polymer Informatics skill](skills/spe-polymer-informatics/) provides
+an AI teaching assistant for the four original notebooks in this repository.
+It can explain concepts and code, suggest practice exercises, and help diagnose
+setup or execution problems. It preserves the instructor's notebook-specific
+environment and training settings unless you explicitly request changes.
+The skill is optional: it is not required to run the notebooks in Google Colab
+or locally, and it is not a pretrained polymer-property prediction service.
+
+### Use with Codex
+
+Copy the entire `skills/spe-polymer-informatics/` directory, including its
+references and scripts, into this project's `.agents/skills/` directory.
+Preserve an existing installation before replacing it. If the skill does not
+appear, restart Codex. These locations and discovery behavior are described in
+the [official OpenAI skills documentation](https://learn.chatgpt.com/docs/build-skills).
+
+Open this repository in Codex and use a prompt such as:
+
+> Use $spe-polymer-informatics. This repository contains my original workshop
+> notebooks. Explain Notebook 1 while preserving its code and environment settings.
+
+### Optional read-only preflight
+
+From the repository root, use your chosen Python interpreter to inspect the
+course files and record installed package versions:
+
+```bash
+python skills/spe-polymer-informatics/scripts/preflight.py --project . --check-environment
+```
+
+This check does not install packages or execute notebooks. A successful inventory
+is not proof that the notebooks have run successfully in the current environment.
+See [skills/README.md](skills/README.md) for the complete file list and usage notes.

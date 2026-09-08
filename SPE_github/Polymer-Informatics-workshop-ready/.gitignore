@@ -1,8 +1,0 @@
-.venv/
-.cache/
-.matplotlib-cache/
-__pycache__/
-*.py[cod]
-.DS_Store
-workshop_outputs/
-# Historical executed notebooks in dry_run_outputs/ are shared with learners.
